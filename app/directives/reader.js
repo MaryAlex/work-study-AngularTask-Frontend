@@ -19,7 +19,7 @@ module.exports = function(ngModule) {
         return {
             restrict: 'E',
             scope: {},
-            templateUrl: 'directives/reader.html',
+            templateUrl: '/app/directives/reader.html',
             controllerAs: 'vm',
             controller: function ($scope, $http) {
                 let vm = this;

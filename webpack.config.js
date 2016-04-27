@@ -3,8 +3,8 @@ const config = {
     context: __dirname,
     entry: './index',
     output: {
-        path: __dirname,
-        publicPath: '/',
+        path: __dirname + '/app',
+        publicPath: '/app',
         filename: 'bundle.js'
     },
 

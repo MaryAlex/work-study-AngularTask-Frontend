@@ -1,8 +1,12 @@
 {
   "name": "helloworld",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Please, work!",
+  "main": "index",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "prestart": "npm install"
+  },
   "dependencies": {
     "angular": "^1.5.3",
     "angular-gettext-cli": "^1.0.7",
@@ -32,19 +36,5 @@
     "angular-gettext-loader": "^1.0.1",
     "babel-core": "^6.7.7",
     "babel-loader": "^6.2.4"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MaryAlex/work-study-AngularTask-Frontend.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MaryAlex/work-study-AngularTask-Frontend/issues"
-  },
-  "homepage": "https://github.com/MaryAlex/work-study-AngularTask-Frontend#readme"
+  }
 }

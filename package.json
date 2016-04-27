@@ -1,0 +1,13 @@
+{
+  "name": "helloworld",
+  "version": "0.0.0",
+  "description": "Please, work!",
+  "main": "index",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "prestart": "npm install"
+  },
+  "dependencies": {
+    "babel-loader": "^6.2.1"
+  }
+}
